@@ -206,6 +206,9 @@ body #page {
   margin-bottom: 20px;
   margin-left: 25px;
 }
+#bd .brief-info h1 b {
+  border-bottom: 1px solid #999;
+}
 #bd .brief-info h1 .last-name {
   color: #5ab632;
 }
