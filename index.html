@@ -1,10 +1,39 @@
 <!doctype html>
 <html>
     <head>
-    	<script>
-    		window.location.href="http://blog.goddyzhao.me";
-    	</script>
+    	<meta charset="utf-8">
+    	<link rel="stylesheet" href="assets/stylesheets/application.css" />
     </head>
     <body>
+<!--     	<script id="page" type="text/x-handlebars-template"> -->
+			<div id="page">
+	    		<header id="hd">
+	    			<ul>
+	    				<li class="active">中文</li>
+	    				<li>|</li>
+	    				<li>English</li>
+	    			</ul>
+	    		</header>
+	    		<article id="bd">
+	    			<section>
+		    			<section class="brief-info">
+		    				<h1><b class="first-name">Goddy</b><b class="last-name">Zhao</b></h1>
+		    				<section class="net-info">
+		    					<p class="blog">http://blog.goddyzhao.me</p>
+		    					<!--In Chinese Mode Only -->
+		    					<p class="blog-remark">(如无法访问需翻墙)</p>
+		    					<p class="email">goddy128[at]gmail.com</p>	
+		    				</section>
+		    			</section>
+		    			<div class="avatar"></div>
+	    			</section>
+	    		</article>
+			</div>
+    		<footer id="ft"></footer>
+<!--     	</script> -->
+    	<script src="assets/javascripts/libs/jquery-1.7.1.min.js"></script>
+    	<script src="assets/javascripts/libs/handlebars-1.0.0.js"></script>
+    	<script src="assets/javascripts/libs/html5-shim.js"></script>
+    	<script src="assets/javascripts/application.js"></script>
     </body>
 </html>

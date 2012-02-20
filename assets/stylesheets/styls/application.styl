@@ -1,0 +1,78 @@
+@import "reset"
+@import "variables"
+
+html, body
+  background transparent url($bgImgUrl) repeat 0 0
+  
+body #page
+  width 990px
+  margin 0 auto
+  color $textColor
+  
+#hd
+  margin 20px 0
+  position relative
+  
+  ul
+    text-align right
+  
+    li
+      display inline
+      color $delightTextColor
+    li.active
+      color $highlightTextColor  
+      
+      
+#bd
+  background transparent url($treeImgUrl) no-repeat 0 0
+  margin-top 180px
+  width 990px 
+  height 1421px
+  z-index 100
+  position relative
+  
+  .brief-info
+    position absolute
+    top -78px
+    left 140px
+    
+    h1
+      font-size 48px
+      margin-bottom 20px
+      margin-left 25px
+      
+      .last-name
+        color $highlightTextColor
+
+    .net-info
+      p
+        padding 5px 0 0 40px
+        
+      .blog
+        background transparent url($blogImgUrl) no-repeat 0 0
+        height 32px
+        font-size 24px
+        
+      .blog-remark
+        color $delightTextColor
+      
+      .email
+        background transparent url($emailImgUrl)  no-repeat 0 0
+        height 32px
+        font-size 24px
+      
+  
+  .avatar
+    background-image url($avatarImgUrl)
+    display inline-block
+    width 244px
+    height 244px
+    position absolute
+    left 533px
+    top -122px
+
+#ft
+  background transparent url($treeImgUrl) repeat-x -899px -1393px
+  height 28px
+  width 100%
+  margin-top -28px
