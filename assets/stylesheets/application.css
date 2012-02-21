@@ -237,6 +237,47 @@ body #page {
   left: 533px;
   top: -122px;
 }
+#bd .dots-wrap .dots {
+  position: absolute;
+}
+#bd .dots-wrap .dots .dot {
+  background-image: url("../images/dot.png");
+  position: absolute;
+  display: inline-block;
+  width: 57px;
+  height: 57px;
+}
+#bd .dots-wrap .dots:hover .dot {
+  background-image: url("../images/dot_active.png");
+  width: 86px;
+  height: 86px;
+  left: -15px;
+  top: -15px;
+}
+#bd .dots-wrap .dots:nth-child(1) {
+  top: 220px;
+  left: 388px;
+}
+#bd .dots-wrap .dots:nth-child(2) {
+  top: 380px;
+  left: 448px;
+}
+#bd .dots-wrap .dots:nth-child(3) {
+  top: 540px;
+  left: 547px;
+}
+#bd .dots-wrap .dots:nth-child(4) {
+  top: 700px;
+  left: 466px;
+}
+#bd .dots-wrap .dots:nth-child(5) {
+  top: 860px;
+  left: 381px;
+}
+#bd .dots-wrap .dots:nth-child(6) {
+  top: 1020px;
+  left: 420px;
+}
 #ft {
   background: transparent url("../images/tree.png") repeat-x -899px -1393px;
   height: 28px;

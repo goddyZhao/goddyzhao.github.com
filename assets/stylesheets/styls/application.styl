@@ -74,6 +74,61 @@ body #page
     left 533px
     top -122px
 
+  .dots-wrap 
+  
+    .dots 
+      position absolute
+      
+      .dot
+        background-image url($dotImgUrl)
+        position absolute
+        display inline-block
+        width 57px
+        height 57px
+      
+    .dots:hover
+      
+      .dot
+        background-image url($dotActiveImgUrl)
+        width 86px
+        height 86px
+        left -15px
+        top -15px   
+    
+    //first  
+    .dots:nth-child(1)
+      top 220px
+      left 388px
+      
+    //second
+    .dots:nth-child(2)
+      top 380px
+      left 448px
+        
+    //third
+    .dots:nth-child(3)
+      top 540px
+      left 547px
+      
+    //fourth
+    .dots:nth-child(4)
+      top 700px
+      left 466px
+      
+    //fifth
+    .dots:nth-child(5)
+      top 860px
+      left 381px
+    
+    //sixth
+    .dots:nth-child(6)
+      top 1020px
+      left 420px
+      
+        
+    
+  
+
 #ft
   background transparent url($treeImgUrl) repeat-x -899px -1393px
   height 28px
