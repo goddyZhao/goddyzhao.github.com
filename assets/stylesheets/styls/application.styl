@@ -1,5 +1,6 @@
 @import "reset"
 @import "variables"
+@import "utils"
 
 html, body
   background transparent url($bgImgUrl) repeat 0 0
@@ -85,6 +86,7 @@ body #page
         display inline-block
         width 57px
         height 57px
+        z-index 10
       
     .dots:hover
       
@@ -95,20 +97,118 @@ body #page
         left -15px
         top -15px   
     
+    //milestones
+    .milestones
+      width 400px
+      font-size 20px
+      line-height 20px
+      position absolute
+      .title
+        margin-bottom 10px
+        h3
+          color $highlightTextColor
+          font-size 22px
+        .summary
+          margin-top 5px
+          display inline-block
+      ul
+        li
+          cursor pointer
+        .small-dot
+          background-image url($smallDotImgUrl)
+          display inline-block
+          width 38px
+          height 38px
+          position absolute
+          display none
+    
     //first  
     .dots:nth-child(1)
       top 220px
       left 388px
       
+      .milestones
+        text-align right
+        position absolute 
+        right 15px
+        top -5px
+        
+      
     //second
     .dots:nth-child(2)
       top 380px
       left 448px
+      
+      .leaves
+        background-image url($leaviesImg("left", 1))
+        width 60px
+        height 74px
+        display inline-block
+        position absolute
+        top 50px
+        right -28px
+        
+      .milestones
+        text-align right
+        top 48px
+        right 40px
+        
+        li:nth-child(1):hover
+          .small-dot
+            right -38px
+            top 47px
+            display inline-block
+          
         
     //third
     .dots:nth-child(3)
       top 540px
       left 547px
+      
+      .leaves
+        background-image url($leaviesImg("right", 4))
+        width 144px
+        height 134px
+        display inline-block
+        position absolute
+        top 40px
+        left 35px
+      .milestones
+        top -2px
+        left 140px
+        ul 
+          li
+            margin-bottom 10px
+          li:nth-child(1)
+            margin-left -10px
+          li:nth-child(1):hover
+            .small-dot
+              display inline-block
+              top 52px
+              left -46px
+              
+          li:nth-child(2)
+            margin-left 5px
+          li:nth-child(2):hover
+            .small-dot
+              display inline-block
+              top 81px
+              left -28px
+              
+          li:nth-child(3)
+            margin-left 25px
+          li:nth-child(3):hover
+            .small-dot
+              display inline-block
+              top 109px
+              left -11px
+          li:nth-child(4)
+            margin-left 42px
+          li:nth-child(4):hover
+            .small-dot
+              display inline-block
+              top 138px
+              left 7px
       
     //fourth
     .dots:nth-child(4)
@@ -125,7 +225,6 @@ body #page
       top 1020px
       left 420px
       
-        
     
   
 
