@@ -437,4 +437,16 @@ body #page {
   height: 28px;
   width: 100%;
   margin-top: -28px;
+  position: relative;
+  z-index: 1001;
+}
+#ft .copyright {
+  width: 300px;
+  margin: 0 auto;
+  line-height: 28px;
+  color: #333;
+}
+#ft .copyright a {
+  text-decoration: none;
+  color: #999;
 }
