@@ -165,6 +165,11 @@ textarea {
   overflow: auto;
   vertical-align: top;
 }
+#hack,
+.popover-title a {
+  text-decoration: none;
+  color: #333;
+}
 html,
 body {
   background: transparent url("../images/bg.png") repeat 0 0;
@@ -207,7 +212,7 @@ body #page {
   margin-left: 25px;
 }
 #bd .brief-info h1 b {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px dashed #999;
 }
 #bd .brief-info h1 .last-name {
   color: #5ab632;
@@ -256,7 +261,7 @@ body #page {
   top: -15px;
 }
 #bd .dots-wrap .milestones {
-  width: 400px;
+  width: 450px;
   font-size: 20px;
   line-height: 20px;
   position: absolute;
@@ -274,6 +279,7 @@ body #page {
 }
 #bd .dots-wrap .milestones ul li {
   cursor: pointer;
+  display: inline-block;
 }
 #bd .dots-wrap .milestones ul .small-dot {
   background-image: url("../images/small_dot.png");
@@ -282,6 +288,12 @@ body #page {
   height: 38px;
   position: absolute;
   display: none;
+}
+#bd .dots-wrap .milestones ul a {
+  text-decoration: none;
+}
+#bd .dots-wrap .milestones ul a:hover {
+  color: #5ab632;
 }
 #bd .dots-wrap .dots:nth-child(1) {
   top: 220px;
@@ -317,8 +329,8 @@ body #page {
   display: inline-block;
 }
 #bd .dots-wrap .dots:nth-child(3) {
-  top: 540px;
-  left: 547px;
+  top: 520px;
+  left: 543px;
 }
 #bd .dots-wrap .dots:nth-child(3) .leaves {
   background-image: url("../images/right_leaves4.png");
@@ -369,16 +381,56 @@ body #page {
   left: 7px;
 }
 #bd .dots-wrap .dots:nth-child(4) {
-  top: 700px;
-  left: 466px;
+  top: 740px;
+  left: 430px;
+}
+#bd .dots-wrap .dots:nth-child(4) .leaves {
+  background-image: url("../images/right_leaves3.png");
+  width: 121px;
+  height: 104px;
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+#bd .dots-wrap .dots:nth-child(4) .milestones {
+  top: -2px;
+  left: 135px;
+}
+#bd .dots-wrap .dots:nth-child(4) .milestones ul li {
+  margin-bottom: 10px;
+}
+#bd .dots-wrap .dots:nth-child(4) .milestones ul li:nth-child(1) {
+  margin-left: -8px;
+}
+#bd .dots-wrap .dots:nth-child(4) .milestones ul li:nth-child(1):hover .small-dot {
+  display: inline-block;
+  top: 52px;
+  left: -46px;
+}
+#bd .dots-wrap .dots:nth-child(4) .milestones ul li:nth-child(2) {
+  margin-left: 10px;
+}
+#bd .dots-wrap .dots:nth-child(4) .milestones ul li:nth-child(2):hover .small-dot {
+  display: inline-block;
+  top: 81px;
+  left: -28px;
+}
+#bd .dots-wrap .dots:nth-child(4) .milestones ul li:nth-child(3) {
+  margin-left: 27px;
+}
+#bd .dots-wrap .dots:nth-child(4) .milestones ul li:nth-child(3):hover .small-dot {
+  display: inline-block;
+  top: 109px;
+  left: -11px;
 }
 #bd .dots-wrap .dots:nth-child(5) {
-  top: 860px;
+  top: 900px;
   left: 381px;
 }
 #bd .dots-wrap .dots:nth-child(6) {
-  top: 1020px;
-  left: 420px;
+  top: 1060px;
+  left: 448px;
 }
 #ft {
   background: transparent url("../images/tree.png") repeat-x -899px -1393px;

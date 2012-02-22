@@ -2,6 +2,11 @@
 @import "variables"
 @import "utils"
 
+#hack
+.popover-title a
+  text-decoration none
+  color #333
+
 html, body
   background transparent url($bgImgUrl) repeat 0 0
   
@@ -43,7 +48,7 @@ body #page
       margin-left 25px
       
       b
-        border-bottom 1px solid #999
+        border-bottom 1px dashed #999
               
       .last-name
         color $highlightTextColor
@@ -99,7 +104,7 @@ body #page
     
     //milestones
     .milestones
-      width 400px
+      width 450px
       font-size 20px
       line-height 20px
       position absolute
@@ -114,6 +119,7 @@ body #page
       ul
         li
           cursor pointer
+          display inline-block
         .small-dot
           background-image url($smallDotImgUrl)
           display inline-block
@@ -121,6 +127,10 @@ body #page
           height 38px
           position absolute
           display none
+        a
+          text-decoration none
+        a:hover
+          color $highlightTextColor
     
     //first  
     .dots:nth-child(1)
@@ -162,8 +172,8 @@ body #page
         
     //third
     .dots:nth-child(3)
-      top 540px
-      left 547px
+      top 520px
+      left 543px
       
       .leaves
         background-image url($leaviesImg("right", 4))
@@ -212,18 +222,55 @@ body #page
       
     //fourth
     .dots:nth-child(4)
-      top 700px
-      left 466px
+      top 740px
+      left 430px
+      .leaves
+        background-image url($leaviesImg("right", 3))
+        width 121px
+        height 104px
+        display inline-block
+        position absolute
+        top 40px
+        left 30px
+      .milestones
+        top -2px
+        left 135px
+        ul 
+          li
+            margin-bottom 10px
+          li:nth-child(1)
+            margin-left -8px
+          li:nth-child(1):hover
+            .small-dot
+              display inline-block
+              top 52px
+              left -46px
+              
+          li:nth-child(2)
+            margin-left 10px
+          li:nth-child(2):hover
+            .small-dot
+              display inline-block
+              top 81px
+              left -28px
+              
+          li:nth-child(3)
+            margin-left 27px
+          li:nth-child(3):hover
+            .small-dot
+              display inline-block
+              top 109px
+              left -11px
       
     //fifth
     .dots:nth-child(5)
-      top 860px
+      top 900px
       left 381px
     
     //sixth
     .dots:nth-child(6)
-      top 1020px
-      left 420px
+      top 1060px
+      left 448px
       
     
   
