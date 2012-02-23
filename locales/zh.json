@@ -1,0 +1,155 @@
+{
+	"name": {
+		"firstName": "Goddy"
+	  , "lastName": "Zhao"
+	}
+  , "information": {
+  		"blog": "http://blog.goddyzhao.me"
+  	  , "blogWarning": "(如无法访问需翻墙)"
+  	  , "email": "goddy128[at]gmail.com"
+  	}
+  , "milestones": [
+  		{
+  			"date": "2006-2010"
+  		  , "events": [
+  		  		{
+  		  			"content": "复旦大学软件工程"
+  		  		  , "details": [
+  		  		  		{
+  		  		  			"content": "是啊是啊"
+  		  		  		}
+  		  		  	  , 
+  		  		  		{
+  		  		  			"content": "是啊是啊2"
+  		  		  		}
+  		  		    ]
+  		  		}
+  		  	]
+  		}
+  		
+  	  , {
+  			"date": "2009-2010"
+  		  , "multipleEvents": true
+  		  , "summary": "IBM - 软件工程师"
+  		  , "events": [
+  		  		{
+  		  			"content": "负责<a href='http://www-01.ibm.com/software/info/mashup-center/' target='_blank'>“IBM Mashup Center 2.0”</a>开发工作"
+  		  		  , "details": [
+  		  		  		{
+  		  		  			"content": "是啊是啊"
+  		  		  		}
+  		  		  	  , 
+  		  		  		{
+  		  		  			"content": "是啊是啊2"
+  		  		  		}
+  		  		    ]
+  		  		}
+  		  	]
+  		}
+  		
+  	  , {
+  			"date": "2010-2011"
+  		  , "multipleEvents": true
+  		  , "summary": "前端工程师 - 淘宝网"
+  		  , "events": [
+  		  		{
+  		  			"content": "负责“云客服系统”前端开发"
+  		  		  , "details": [
+  		  		  		{
+  		  		  			"content": "是啊是啊"
+  		  		  		}
+  		  		  	  , 
+  		  		  		{
+  		  		  			"content": "是啊是啊2"
+  		  		  		}
+  		  		    ]
+  		  		}
+  		  		
+  		  	  ,	{
+  		  			"content": "负责“智能客服机器人系统”前端开发"
+  		  		  , "details": [
+  		  		  		{
+  		  		  			"content": "是啊是啊"
+  		  		  		}
+  		  		  	  , 
+  		  		  		{
+  		  		  			"content": "是啊是啊2"
+  		  		  		}
+  		  		    ]
+  		  		}
+  		  		
+  		  	  ,	{
+  		  			"content": "参与翻译<a href='http://book.douban.com/subject/5386169/' target='_blank'>《HTML5揭秘》</a>一书"
+  		  		  , "details": [
+  		  		  		{
+  		  		  			"content": "是啊是啊"
+  		  		  		}
+  		  		  	  , 
+  		  		  		{
+  		  		  			"content": "是啊是啊2"
+  		  		  		}
+  		  		    ]
+  		  		}
+  		  		
+  		  	  ,	{
+  		  			"content": "创立<a href='http://trans4fun.org/' target='_blank'>“Trans4Fun”前端翻译小站</a>"
+  		  		  , "details": [
+  		  		  		{
+  		  		  			"content": "是啊是啊"
+  		  		  		}
+  		  		  	  , 
+  		  		  		{
+  		  		  			"content": "是啊是啊2"
+  		  		  		}
+  		  		    ]
+  		  		}
+  		  	]
+  		}
+  		
+  	  , {
+  			"date": "2011-2012"
+  		  , "multipleEvents": true
+  		  , "summary": "前端工程师 - 淘宝网"
+  		  , "events": [
+  		  		{
+  		  			"content": "参与翻译《JavaScript权威指南第六版》一书"
+  		  		  , "details": [
+  		  		  		{
+  		  		  			"content": "是啊是啊"
+  		  		  		}
+  		  		  	  , 
+  		  		  		{
+  		  		  			"content": "是啊是啊2"
+  		  		  		}
+  		  		    ]
+  		  		}
+  		  		
+  		  	  ,	{
+  		  			"content": "组织并翻译<a href='http://nodebeginner.org/index-zh-cn.html' target='_blank'>《Node入门》</a>一书"
+  		  		  , "details": [
+  		  		  		{
+  		  		  			"content": "是啊是啊"
+  		  		  		}
+  		  		  	  , 
+  		  		  		{
+  		  		  			"content": "是啊是啊2"
+  		  		  		}
+  		  		    ]
+  		  		}
+  		  		
+  		  	  ,	{
+  		  			"content": "负责组织“第六届前端技术论坛”（千人规模）"
+  		  		  , "details": [
+  		  		  		{
+  		  		  			"content": "是啊是啊"
+  		  		  		}
+  		  		  	  , 
+  		  		  		{
+  		  		  			"content": "是啊是啊2"
+  		  		  		}
+  		  		    ]
+  		  		}
+  		  	]
+  		}
+  	]
+}

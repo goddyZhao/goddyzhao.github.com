@@ -3,9 +3,18 @@
 @import "utils"
 
 #hack
-.popover-title a
-  text-decoration none
-  color #333
+.popover
+  .popover-title a
+    text-decoration none
+    color #333
+  ul li
+    background transparent url($leafImgUrl) no-repeat 0 0
+    padding 0 5px 0 20px
+    margin-bottom 5px
+    max-width 430px
+
+.hide
+  display none
 
 html, body
   background transparent url($bgImgUrl) repeat 0 0
@@ -25,6 +34,7 @@ body #page
     li
       display inline
       color $delightTextColor
+      cursor pointer
     li.active
       color $highlightTextColor  
       
@@ -69,6 +79,18 @@ body #page
         background transparent url($emailImgUrl)  no-repeat 0 0
         height 32px
         font-size 24px
+      
+      .weibo
+        background-image url($weiboImgUrl)
+        width 32px
+        height 32px
+        display inline-block
+      .twitter
+        background-image url($twitterImgUrl)
+        width 32px
+        height 32px
+        display inline-block
+        
       
   
   .avatar
@@ -131,6 +153,9 @@ body #page
           text-decoration none
         a:hover
           color $highlightTextColor
+      
+      .details
+        display none
     
     //first  
     .dots:nth-child(1)
@@ -190,7 +215,7 @@ body #page
           li
             margin-bottom 10px
           li:nth-child(1)
-            margin-left -10px
+            margin-left -8px
           li:nth-child(1):hover
             .small-dot
               display inline-block
@@ -198,7 +223,7 @@ body #page
               left -46px
               
           li:nth-child(2)
-            margin-left 5px
+            margin-left 7px
           li:nth-child(2):hover
             .small-dot
               display inline-block
@@ -206,14 +231,14 @@ body #page
               left -28px
               
           li:nth-child(3)
-            margin-left 25px
+            margin-left 27px
           li:nth-child(3):hover
             .small-dot
               display inline-block
               top 109px
               left -11px
           li:nth-child(4)
-            margin-left 42px
+            margin-left 44px
           li:nth-child(4):hover
             .small-dot
               display inline-block
