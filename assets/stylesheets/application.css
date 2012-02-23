@@ -221,7 +221,7 @@ body #page {
 #bd .brief-info h1 {
   font-size: 48px;
   margin-bottom: 20px;
-  margin-left: 25px;
+  margin-left: 40px;
 }
 #bd .brief-info h1 b {
   border-bottom: 1px dashed #999;
@@ -301,7 +301,6 @@ body #page {
 }
 #bd .dots-wrap .milestones ul li {
   cursor: pointer;
-  display: inline-block;
 }
 #bd .dots-wrap .milestones ul .small-dot {
   background-position: 0 -1048px;

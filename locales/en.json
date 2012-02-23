@@ -5,8 +5,7 @@
 	  , "lastName": "Zhao"
 	}
   , "information": {
-  		"blog": "http://blog.goddyzhao.me"
-  	  , "blogWarning": "(如无法访问需翻墙)"
+  		"blog": "http://goddyzhaoen.tumblr.com"
   	  , "email": "goddy128[at]gmail.com"
   	}
   , "milestones": [
@@ -14,7 +13,7 @@
   			"date": "2006-2010"
   		  , "events": [
   		  		{
-  		  			"content": "复旦大学软件工程"
+  		  			"content": "Software Engineering, Fudan University"
   		  		  , "details": [
   		  		  		{
   		  		  			"content": "是啊是啊"
@@ -31,10 +30,10 @@
   	  , {
   			"date": "2009-2010"
   		  , "multipleEvents": true
-  		  , "summary": "IBM - 软件工程师"
+  		  , "summary": "Software Engineer - IBM"
   		  , "events": [
   		  		{
-  		  			"content": "负责<a href='http://www-01.ibm.com/software/info/mashup-center/' target='_blank'>“IBM Mashup Center 2.0”</a>开发工作"
+  		  			"content": "Project: <a href='http://www-01.ibm.com/software/info/mashup-center/' target='_blank'><i>IBM Mashup Center 2.0</i></a>"
   		  		  , "details": [
   		  		  		{
   		  		  			"content": "是啊是啊"
@@ -51,10 +50,10 @@
   	  , {
   			"date": "2010-2011"
   		  , "multipleEvents": true
-  		  , "summary": "前端工程师 - 淘宝网"
+  		  , "summary": "Front-End Engineer - Taobao"
   		  , "events": [
   		  		{
-  		  			"content": "负责“云客服系统”前端开发"
+  		  			"content": "Project: <a href='http://yunkefu.taobao.com/' target='_blank'><i>Cloud Service System</i></a>"
   		  		  , "details": [
   		  		  		{
   		  		  			"content": "是啊是啊"
@@ -67,7 +66,7 @@
   		  		}
   		  		
   		  	  ,	{
-  		  			"content": "负责“智能客服机器人系统”前端开发"
+  		  			"content": "Project: <a href='http://service.taobao.com/support/minerva/betaRobotMain.htm/' target='_blank'><i>Intelligent Service Robot System</i></a>"
   		  		  , "details": [
   		  		  		{
   		  		  			"content": "是啊是啊"
@@ -80,7 +79,7 @@
   		  		}
   		  		
   		  	  ,	{
-  		  			"content": "参与翻译<a href='http://book.douban.com/subject/5386169/' target='_blank'>《HTML5揭秘》</a>一书"
+  		  			"content": "Translated the book: <a href='http://www.amazon.com/HTML5-Up-Running-Mark-Pilgrim/dp/0596806027/' target='_blank'><i>HTML5: up and running</i></a>"
   		  		  , "details": [
   		  		  		{
   		  		  			"content": "是啊是啊"
@@ -93,7 +92,7 @@
   		  		}
   		  		
   		  	  ,	{
-  		  			"content": "创立<a href='http://trans4fun.org/' target='_blank'>“Trans4Fun”前端翻译小站</a>"
+  		  			"content": "Found <a href='http://trans4fun.org/' target='_blank'><i>Trans4Fun</i></a>"
   		  		  , "details": [
   		  		  		{
   		  		  			"content": "是啊是啊"
@@ -110,10 +109,10 @@
   	  , {
   			"date": "2011-2012"
   		  , "multipleEvents": true
-  		  , "summary": "前端工程师 - 淘宝网"
+  		  , "summary": "Front-End Engineer - Taobao"
   		  , "events": [
   		  		{
-  		  			"content": "参与翻译《JavaScript权威指南第六版》一书"
+  		  			"content": "Translated <a href='http://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527/' target='_blank'><i>JavaScript: The Definitive Guide</i></a>"
   		  		  , "details": [
   		  		  		{
   		  		  			"content": "是啊是啊"
@@ -126,7 +125,7 @@
   		  		}
   		  		
   		  	  ,	{
-  		  			"content": "组织并翻译<a href='http://nodebeginner.org/index-zh-cn.html' target='_blank'>《Node入门》</a>一书"
+  		  			"content": "Translated <a href='http://nodebeginner.org/'><i>The Node Beginner Book</i></a>"
   		  		  , "details": [
   		  		  		{
   		  		  			"content": "是啊是啊"
@@ -139,7 +138,7 @@
   		  		}
   		  		
   		  	  ,	{
-  		  			"content": "负责组织“第六届前端技术论坛”"
+  		  			"content": "Organized the sixth <a href='http://d2forum.org/'><i>D2 Technology Forum </i></a>"
   		  		  , "details": [
   		  		  		{
   		  		  			"content": "是啊是啊"
