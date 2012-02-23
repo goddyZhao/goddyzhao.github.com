@@ -21,9 +21,10 @@
 		function render(data){
 			$body.fadeOut(function(){
 				$("#bd").html(template(data));
-				$("#bd .avatar").css("z-index","100");
 				initPopover();
-				$body.fadeIn();
+				$body.fadeIn(function(){
+					$("#bd .avatar").css("z-index","100");
+				});
 			});
 		};
 		

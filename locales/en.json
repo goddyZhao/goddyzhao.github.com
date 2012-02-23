@@ -1,5 +1,6 @@
 {
-	"name": {
+	"empty": " "
+  , "name": {
 		"firstName": "Goddy"
 	  , "lastName": "Zhao"
 	}
@@ -138,7 +139,7 @@
   		  		}
   		  		
   		  	  ,	{
-  		  			"content": "负责组织“第六届前端技术论坛”（千人规模）"
+  		  			"content": "负责组织“第六届前端技术论坛”"
   		  		  , "details": [
   		  		  		{
   		  		  			"content": "是啊是啊"

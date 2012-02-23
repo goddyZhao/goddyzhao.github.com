@@ -172,7 +172,7 @@ textarea {
 }
 #hack ul li,
 .popover ul li {
-  background: transparent url("../images/leaf.png") no-repeat 0 0;
+  background: transparent url("../images/tree_sprite.png") no-repeat 0 -147px;
   padding: 0 5px 0 20px;
   margin-bottom: 5px;
   max-width: 430px;
@@ -183,6 +183,7 @@ textarea {
 html,
 body {
   background: transparent url("../images/bg.png") repeat 0 0;
+  font-family: 'Microsoft YaHei' false;
 }
 body #page {
   width: 990px;
@@ -231,8 +232,12 @@ body #page {
 #bd .brief-info .net-info p {
   padding: 5px 0 0 40px;
 }
+#bd .brief-info .net-info .blog,
+#bd .brief-info .net-info .email {
+  background: transparent url("../images/markers.png") no-repeat 0 0;
+}
 #bd .brief-info .net-info .blog {
-  background: transparent url("../images/blog.png") no-repeat 0 0;
+  background-position: 0 0;
   height: 32px;
   font-size: 24px;
 }
@@ -240,21 +245,9 @@ body #page {
   color: #999;
 }
 #bd .brief-info .net-info .email {
-  background: transparent url("../images/email.png") no-repeat 0 0;
+  background-position: 0 -34px;
   height: 32px;
   font-size: 24px;
-}
-#bd .brief-info .net-info .weibo {
-  background-image: url("$weiboImgUrl");
-  width: 32px;
-  height: 32px;
-  display: inline-block;
-}
-#bd .brief-info .net-info .twitter {
-  background-image: url("$twitterImgUrl");
-  width: 32px;
-  height: 32px;
-  display: inline-block;
 }
 #bd .avatar {
   background-image: url("../images/avatar.png");
@@ -265,11 +258,17 @@ body #page {
   left: 533px;
   top: -122px;
 }
+#bd .dots-wrap .dots .dot,
+#bd .dots-wrap .dots:hover .dot,
+#bd .dots-wrap .dots .small-dot,
+#bd .dots-wrap .dots .leaves {
+  background: transparent url("../images/tree_sprite.png") no-repeat 0 0;
+}
 #bd .dots-wrap .dots {
   position: absolute;
 }
 #bd .dots-wrap .dots .dot {
-  background-image: url("../images/dot.png");
+  background-position: 0 0;
   position: absolute;
   display: inline-block;
   width: 57px;
@@ -277,14 +276,14 @@ body #page {
   z-index: 10;
 }
 #bd .dots-wrap .dots:hover .dot {
-  background-image: url("../images/dot_active.png");
+  background-position: 0 -59px;
   width: 86px;
   height: 86px;
   left: -15px;
   top: -15px;
 }
 #bd .dots-wrap .milestones {
-  width: 450px;
+  width: 430px;
   font-size: 20px;
   line-height: 20px;
   position: absolute;
@@ -305,7 +304,7 @@ body #page {
   display: inline-block;
 }
 #bd .dots-wrap .milestones ul .small-dot {
-  background-image: url("../images/small_dot.png");
+  background-position: 0 -1048px;
   display: inline-block;
   width: 38px;
   height: 38px;
@@ -314,6 +313,7 @@ body #page {
 }
 #bd .dots-wrap .milestones ul a {
   text-decoration: none;
+  color: #369;
 }
 #bd .dots-wrap .milestones ul a:hover {
   color: #5ab632;
@@ -336,7 +336,7 @@ body #page {
   left: 448px;
 }
 #bd .dots-wrap .dots:nth-child(2) .leaves {
-  background-image: url("../images/left_leaves1.png");
+  background-position: 0 -165px;
   width: 60px;
   height: 74px;
   display: inline-block;
@@ -359,7 +359,7 @@ body #page {
   left: 543px;
 }
 #bd .dots-wrap .dots:nth-child(3) .leaves {
-  background-image: url("../images/right_leaves4.png");
+  background-position: 0 -912px;
   width: 144px;
   height: 134px;
   display: inline-block;
@@ -411,7 +411,7 @@ body #page {
   left: 430px;
 }
 #bd .dots-wrap .dots:nth-child(4) .leaves {
-  background-image: url("../images/right_leaves3.png");
+  background-position: 0 -806px;
   width: 121px;
   height: 104px;
   display: inline-block;
@@ -467,12 +467,12 @@ body #page {
   z-index: 1001;
 }
 #ft .copyright {
-  width: 300px;
+  width: 320px;
   margin: 0 auto;
   line-height: 28px;
-  color: #333;
+  color: #ddddda;
 }
 #ft .copyright a {
   text-decoration: none;
-  color: #999;
+  color: #ddddda;
 }

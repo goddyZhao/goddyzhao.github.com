@@ -28,7 +28,7 @@
 		    					<p class="email">{{information.email}}</p>	
 		    				</section>
 		    			</section>
-		    			<div class="avatar"></div>
+		    			<div class="avatar">{{empty}}</div>
 	    			</article>
 	    			<article class="dots-wrap">
 	    				{{#milestones}}
@@ -42,8 +42,8 @@
 		    						<h3 class="date">{{date}}</h3>
 		    						{{#if summary}}
 		    						<b class="summary">{{summary}}</b>
-		    					</section>
 		    						{{/if}}
+		    					</section>
 		    						<ul>
 		    							{{#events}}
 		    							<li>

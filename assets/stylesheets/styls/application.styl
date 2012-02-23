@@ -8,7 +8,7 @@
     text-decoration none
     color #333
   ul li
-    background transparent url($leafImgUrl) no-repeat 0 0
+    background transparent url($treeSpriteImgUrl) no-repeat 0 -147px
     padding 0 5px 0 20px
     margin-bottom 5px
     max-width 430px
@@ -18,6 +18,7 @@
 
 html, body
   background transparent url($bgImgUrl) repeat 0 0
+  font-family 'Microsoft YaHei' ! important
   
 body #page
   width 990px
@@ -68,29 +69,21 @@ body #page
         padding 5px 0 0 40px
         
       .blog
-        background transparent url($blogImgUrl) no-repeat 0 0
+      .email
+        background transparent url($markersImgUrl) no-repeat 0 0
+          
+      .blog
+        background-position 0 0
         height 32px
         font-size 24px
-        
+       
       .blog-remark
         color $delightTextColor
       
       .email
-        background transparent url($emailImgUrl)  no-repeat 0 0
+        background-position 0 -34px	
         height 32px
         font-size 24px
-      
-      .weibo
-        background-image url($weiboImgUrl)
-        width 32px
-        height 32px
-        display inline-block
-      .twitter
-        background-image url($twitterImgUrl)
-        width 32px
-        height 32px
-        display inline-block
-        
       
   
   .avatar
@@ -103,12 +96,21 @@ body #page
     top -122px
 
   .dots-wrap 
-  
+  	
+  	.dots .dot
+  	.dots:hover .dot
+  	.dots .small-dot
+  	.dots .leaves
+  	  background transparent url($treeSpriteImgUrl) no-repeat 0 0
+  	
+  	
+  	
+  	
     .dots 
       position absolute
       
       .dot
-        background-image url($dotImgUrl)
+        background-position 0 0
         position absolute
         display inline-block
         width 57px
@@ -118,15 +120,14 @@ body #page
     .dots:hover
       
       .dot
-        background-image url($dotActiveImgUrl)
+        background-position 0 -59px
         width 86px
         height 86px
         left -15px
         top -15px   
     
-    //milestones
     .milestones
-      width 450px
+      width 430px
       font-size 20px
       line-height 20px
       position absolute
@@ -143,7 +144,7 @@ body #page
           cursor pointer
           display inline-block
         .small-dot
-          background-image url($smallDotImgUrl)
+          background-position 0 -1048px
           display inline-block
           width 38px
           height 38px
@@ -151,13 +152,13 @@ body #page
           display none
         a
           text-decoration none
+          color #336699
         a:hover
           color $highlightTextColor
       
       .details
         display none
     
-    //first  
     .dots:nth-child(1)
       top 220px
       left 388px
@@ -169,13 +170,12 @@ body #page
         top -5px
         
       
-    //second
     .dots:nth-child(2)
       top 380px
       left 448px
       
       .leaves
-        background-image url($leaviesImg("left", 1))
+        background-position 0 -165px
         width 60px
         height 74px
         display inline-block
@@ -195,13 +195,12 @@ body #page
             display inline-block
           
         
-    //third
     .dots:nth-child(3)
       top 520px
       left 543px
       
       .leaves
-        background-image url($leaviesImg("right", 4))
+        background-position 0 -912px
         width 144px
         height 134px
         display inline-block
@@ -245,12 +244,11 @@ body #page
               top 138px
               left 7px
       
-    //fourth
     .dots:nth-child(4)
       top 740px
       left 430px
       .leaves
-        background-image url($leaviesImg("right", 3))
+        background-position 0 -806px
         width 121px
         height 104px
         display inline-block
@@ -287,12 +285,10 @@ body #page
               top 109px
               left -11px
       
-    //fifth
     .dots:nth-child(5)
       top 900px
       left 381px
     
-    //sixth
     .dots:nth-child(6)
       top 1060px
       left 448px
@@ -307,10 +303,10 @@ body #page
   z-index 1001
   
   .copyright
-    width 300px
+    width 320px
     margin 0 auto
     line-height 28px
-    color $textColor
+    color $footerTextColor
     a
       text-decoration none
-      color $delightTextColor
+      color $footerTextColor
