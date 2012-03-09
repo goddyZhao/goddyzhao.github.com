@@ -301,6 +301,7 @@ body #page {
 }
 #bd .dots-wrap .milestones ul li {
   cursor: pointer;
+  display: inline-block;
 }
 #bd .dots-wrap .milestones ul .small-dot {
   background-position: 0 -1048px;

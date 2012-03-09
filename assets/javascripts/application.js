@@ -23,7 +23,7 @@
 				$("#bd").html(template(data));
 				initPopover();
 				$body.fadeIn(function(){
-					$("#bd .avatar").css("z-index","100");
+					$("#bd .avatar").css("z-index","101");
 				});
 			});
 		};
