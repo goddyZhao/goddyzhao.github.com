@@ -19,10 +19,15 @@
                       "field": "Position: "
   		  		  			, "content": "Monitor & Vice-chairperson of Student Union"
   		  		  		}
-  		  		  	  , 
-  		  		  		{
+  	             , 
+                  {
                       "field": "Awards: "
-  		  		  			, "content": "Second-Class Scholarship & Excellent Student"
+                    , "content": "Second-Class Scholarship & Excellent Student"
+                  }	  		  	  
+                  , 
+  		  		  		{
+                      "field": "Achievements: "
+  		  		  			, "content": "Build up a solid basement on Computer Science"
   		  		  		}
   		  		    ]
   		  		}
@@ -106,7 +111,7 @@
   		  		  , "details": [
   		  		  		{
                       "field": "Introduction: "
-  		  		  			, "content": "Encouraged by XiaoMa(Leader of F2E Team in Taobao), I translated this book into Chinese, which is my first time to do such formal translating work."
+  		  		  			, "content": "Encouraged by XiaoMa(Leader of F2E Team in Taobao), I translated this book into Chinese, which is my first time to do such formal translating work"
   		  		  		}
   		  		  	  , 
   		  		  		{

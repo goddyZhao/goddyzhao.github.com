@@ -483,3 +483,23 @@ body #page {
   text-decoration: none;
   color: #ddddda;
 }
+.degrade-info {
+  width: 950px;
+  margin: 250px auto;
+}
+.degrade-info h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.degrade-info ul {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.degrade-info ul li {
+  float: left;
+  margin-right: 10px;
+}
+.degrade-info a {
+  text-decoration: none;
+  color: #369;
+}
