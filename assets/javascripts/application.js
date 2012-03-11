@@ -7,7 +7,7 @@
 			  	  zh: $("#hd .language li[data-language='zh']")
 			  	, en: $("#hd .language li[data-language='en']")
 		    }
-		  , currentLanguage = "zh"
+		  , currentLanguage = "en"
 		  , $body = $("body");
 		  
 		
