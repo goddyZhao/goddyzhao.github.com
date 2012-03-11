@@ -61,9 +61,6 @@
 		 */
 		function entryCheck(){
 			if($.browser.msie){
-				$body.html("Sorry")
-				$body.fadeIn();
-			}else{
 				var template = [
 					'<div class="degrade-info">'
 				  ,   '<h1 class="title">很抱歉，我的简历在线浏览不支持您当前浏览器，您可以：</h1>'
@@ -81,6 +78,8 @@
 				$body.html(template);
 				$body.fadeIn();
 				return false;
+			}else{
+				return true;
 			}
 		};
 		
