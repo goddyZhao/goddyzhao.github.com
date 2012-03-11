@@ -165,17 +165,24 @@ textarea {
   overflow: auto;
   vertical-align: top;
 }
-#hack .popover-title a,
+.popover .popover-title {
+  text-align: center;
+}
 .popover .popover-title a {
   text-decoration: none;
-  color: #333;
+  color: #369;
 }
-#hack ul li,
 .popover ul li {
-  background: transparent url("../images/tree_sprite.png") no-repeat 0 -147px;
+  background: transparent url("../images/leaf.png") no-repeat 0 0;
   padding: 0 5px 0 20px;
   margin-bottom: 5px;
   max-width: 430px;
+  line-height: 20px;
+}
+.popover ul li span {
+  display: inline-block;
+  vertical-align: text-top;
+  width: 300px;
 }
 .hide {
   display: none;

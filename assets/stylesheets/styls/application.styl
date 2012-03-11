@@ -2,16 +2,23 @@
 @import "variables"
 @import "utils"
 
-#hack
 .popover
-  .popover-title a
-    text-decoration none
-    color #333
+  .popover-title 
+    text-align center
+    a
+      text-decoration none
+      color #336699
   ul li
-    background transparent url($treeSpriteImgUrl) no-repeat 0 -147px
+    background transparent url($leafImrUrl) no-repeat 0 0
     padding 0 5px 0 20px
     margin-bottom 5px
     max-width 430px
+    line-height 20px
+
+    span
+      display inline-block
+      vertical-align text-top
+      width 300px
 
 .hide
   display none
