@@ -1,0 +1,12 @@
+.sprite-dot{ background-position: 0 0; width: 57px; height: 57px; } 
+.sprite-dot_active{ background-position: 0 -59px; width: 86px; height: 86px; } 
+.sprite-leaf{ background-position: 0 -147px; width: 16px; height: 16px; } 
+.sprite-left_leaves1{ background-position: 0 -165px; width: 60px; height: 74px; } 
+.sprite-left_leaves2{ background-position: 0 -241px; width: 60px; height: 109px; } 
+.sprite-left_leaves3{ background-position: 0 -352px; width: 60px; height: 143px; } 
+.sprite-left_leaves4{ background-position: 0 -497px; width: 60px; height: 179px; } 
+.sprite-right_leaves1{ background-position: 0 -678px; width: 85px; height: 47px; } 
+.sprite-right_leaves2{ background-position: 0 -727px; width: 104px; height: 77px; } 
+.sprite-right_leaves3{ background-position: 0 -806px; width: 121px; height: 104px; } 
+.sprite-right_leaves4{ background-position: 0 -912px; width: 144px; height: 134px; } 
+.sprite-small_dot{ background-position: 0 -1048px; width: 38px; height: 38px; } 
