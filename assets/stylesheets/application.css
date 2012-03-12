@@ -485,10 +485,10 @@ body #page {
 }
 .degrade-info {
   width: 950px;
-  margin: 250px auto;
+  margin: 200px auto;
 }
 .degrade-info h1 {
-  font-size: 30px;
+  font-size: 28px;
   margin-bottom: 20px;
 }
 .degrade-info ul {
@@ -498,8 +498,10 @@ body #page {
 .degrade-info ul li {
   float: left;
   margin-right: 10px;
+  line-height: 25px;
 }
 .degrade-info a {
   text-decoration: none;
   color: #369;
+  line-height: 25px;
 }
