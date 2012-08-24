@@ -9,12 +9,31 @@
 		    }
 		  , currentLanguage = "zh"
 		  , $body = $("body");
-		  
+		 
+		function detectLanguage(){
+			var search = win.location.search;
+			var query;
+			var language;
+
+			if(search === ''){
+				return;
+			}
+
+			query = search.substr(1).split('&');
+			query.forEach(function(item){
+				var pair = item.split('=');
+				if(pair[0] === 'l' && typeof pair[1] !== 'undefined'){
+					currentLanguage = pair[1];
+				}
+			});
+		};
 		
 		function switchLanguage(language){
 			$.getJSON(templateUrl.replace("#{language}", language), function(data){
 				if(!data){ return; }
 				render(data);
+				activeLanguage(language);
+				currentLanguage = language;
 			});
 		};
 		
@@ -50,11 +69,13 @@
 			var $languageDom = $(e.target)
 			  , language = $languageDom.attr("data-language");
 			if(!language || currentLanguage === language){ return; }
+			switchLanguage(language);
+		});
+
+		function activeLanguage(language){
 			languageMap[currentLanguage].removeClass("active");
 			languageMap[language].addClass("active");
-			switchLanguage(language);
-			currentLanguage = language;
-		});
+		};
 
 		/**
 		 * Check whether the user agent is IE, if so, degrade to a pdf version
@@ -86,6 +107,7 @@
 		
 		(function init(){
 			if(entryCheck()){
+				detectLanguage();
 				switchLanguage(currentLanguage);
 			}
 		})();
