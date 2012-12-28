@@ -1,192 +1,263 @@
 {
-	"empty": " "
-  , "name": {
-		"firstName": "Goddy"
-	  , "lastName": "Zhao"
-	}
-  , "information": {
-  		"blog": "http://en.blog.goddyzhao.me"
-  	  , "email": "goddy128[at]gmail.com"
-  	}
-  , "milestones": [
-  		{
-  			"date": "2006-2010"
-  		  , "events": [
+	"empty": " ",
+  "name": {
+		"firstName": "Goddy",
+	  "lastName": "Zhao"
+	},
+  "information": {
+		"blog": "http://en.blog.goddyzhao.me",
+  	"email": "goddy128[at]gmail.com"
+  },
+  "milestones": [
+		{
+			"date": "2006-2010",
+  		"events": [
+	  		{
+	  			"content": "Software Engineering, Fudan University",
+  		  	"details": [
   		  		{
-  		  			"content": "Software Engineering, Fudan University"
-  		  		  , "details": [
-  		  		  		{
-                      "field": "Position: "
-  		  		  			, "content": "Monitor & Vice-chairperson of Student Union"
-  		  		  		}
-  	             , 
-                  {
-                      "field": "Awards: "
-                    , "content": "Second-Class Scholarship & Excellent Student"
-                  }	  		  	  
-                  , 
-  		  		  		{
-                      "field": "Achievements: "
-  		  		  			, "content": "Build up a solid basement on Computer Science"
-  		  		  		}
-  		  		    ]
-  		  		}
-  		  	]
-  		}
-  		
-  	  , {
-  			"date": "2009-2010"
-  		  , "multipleEvents": true
-  		  , "summary": "Software Engineer - IBM"
-  		  , "events": [
+              "field": "Position: ",
+  		  		  "content": "Monitor & Vice-chairperson of Student Union"
+  		  		},
+            {
+              "field": "Awards: ",
+              "content": "Second-Class Scholarship & Excellent Student"
+            },
   		  		{
-  		  			"content": "Project: <a href='http://www-01.ibm.com/software/info/mashup-center/' target='_blank'><i>IBM Mashup Center 2.0</i></a>"
-  		  		  , "details": [
-  		  		  		{
-                      "field": "Introduction: "
-  		  		  			, "content": "A typical Mashup-Tech based product, composed by two parts: Data Source Management Subsystem and Front-End Building Subsystem(with data source)"
-  		  		  		}
-  		  		  	  , 
-  		  		  		{
-                      "field": "Responsibility: "
-  		  		  			, "content": "Developing the Front-End Building Subsystem(like a heavy-weight website building system) with JavaScript, CSS and HTML"
-  		  		  		}
-                  ,
-                  {
-                      "field": "Achievements: "
-                    , "content": "1. First try on the rich client application development<br />2. Learned Front-End techs and Dojo framework<br />3. Attracted by JavaScript"
-                  }
-  		  		    ]
+              "field": "Achievements: ",
+  		  		  "content": "Build up a solid basement on Computer Science"
   		  		}
-  		  	]
-  		}
-  		
-  	  , {
-  			"date": "2010-2011"
-  		  , "multipleEvents": true
-  		  , "summary": "Front-End Engineer - Taobao"
-  		  , "events": [
+  		    ]
+	  		}
+	  	]
+		},
+  	{
+			"date": "2009-2010",
+  		"multipleEvents": true,
+  		"summary": "Software Engineer - IBM",
+  		"events": [
+	  		{
+	  			"content": "Project: <a href='http://www-01.ibm.com/software/info/mashup-center/' target='_blank'><i>IBM Mashup Center 2.0</i></a>",
+  		  	"details": [
   		  		{
-  		  			"content": "Project: <a href='http://yunkefu.taobao.com/' target='_blank'><i>Cloud Service System</i></a>"
-  		  		  , "details": [
-  		  		  		{
-                      "field": "Introduction: "
-  		  		  			, "content": "A typical IM(Instant Message) and Single Page Application: provide real-time online customer support"
-  		  		  		}
-  		  		  	  , 
-                  {
-                      "field": "Responsibility: "
-                    , "content": "Responsible for designing and implementing the front-end part of system: <br />1. Modularized the application<br />2. Implemented a Pub/Sub System to enable the communication between modules and make them loosely coupled<br />3. Implemented cross-domain messaging with HTML5 features"
-                  }
-                  ,
-  		  		  		{
-                      "field": "Achievements: "
-  		  		  			, "content": "1. Initially understanding with Front-End MVC<br />2. Got familiar with Long Live Connection and Polling techs"
-  		  		  		}
-  		  		    ]
-  		  		}
-  		  		
-  		  	  ,	{
-  		  			"content": "Project: <a href='http://service.taobao.com/support/minerva/betaRobotMain.htm/' target='_blank'><i>Intelligent Service Robot System</i></a>"
-  		  		  , "details": [
-  		  		  		{
-                      "field": "Introduction: "
-  		  		  			, "content": "A typical IM(Instant Message) and Single Page Application corresponding to the <i>Cloud Service System</i>: Used by the customers of Taobao "
-  		  		  		}
-  		  		  	  , 
-                  {
-                      "field": "Responsibility: "
-                    , "content": "Responsible for designing and implementing the front-end part of system: <br />1. Modularized the application<br />2. Implemented a Pub/Sub System to enable the communication between modules and make them loosely coupled<br />3. Implemented cross-domain messaging with HTML5 features"
-                  }
-                  ,
-                  {
-                      "field": "Achievements: "
-                    , "content": "1. Initially understanding with Front-End MVC<br />2. Got familiar with Long Live Connection and Polling techs"
-                  }
-  		  		    ]
-  		  		}
-  		  		
-  		  	  ,	{
-  		  			"content": "Translated the book: <a href='http://www.amazon.com/HTML5-Up-Running-Mark-Pilgrim/dp/0596806027/' target='_blank'><i>HTML5: up and running</i></a>"
-  		  		  , "details": [
-  		  		  		{
-                      "field": "Introduction: "
-  		  		  			, "content": "Encouraged by XiaoMa(Leader of F2E Team in Taobao), I translated this book into Chinese, which is my first time to do such formal translating work"
-  		  		  		}
-  		  		  	  , 
-  		  		  		{
-                      "field": "Achievements: "
-  		  		  			, "content": "1. Technical translating is a rigorous physical and mental work<br />2. Forced myself to dive into every tech details in book<br />3. Feel really excited to see my name on the book"
-  		  		  		}
-  		  		    ]
-  		  		}
-  		  		
-  		  	  ,	{
-  		  			"content": "Found <a href='http://trans4fun.org/' target='_blank'><i>Trans4Fun</i></a>"
-  		  		  , "details": [
-  		  		  		{
-                      "field": "Introduction: "
-  		  		  			, "content": "I found this organization for two reasons: one is there are many people like me who have interests in technical translating and the other is the lack of Chinese resources on Front-End Technology"
-  		  		  		}
-  		  		  	  , 
-  		  		  		{
-                      "field": "Achievements: "
-  		  		  			, "content": "1. Published several popular works<br />2. Fixed numbers of team members<br />3. Focus on project based translating"
-  		  		  		}
-  		  		    ]
-  		  		}
-  		  	]
-  		}
-  		
-  	  , {
-  			"date": "2011-2012"
-  		  , "multipleEvents": true
-  		  , "summary": "Front-End Engineer - Taobao"
-  		  , "events": [
+              "field": "Introduction: ",
+  		  		  "content": "A typical Mashup-Tech based product, composed by two parts: Data Source Management Subsystem and Front-End Building Subsystem(with data source)"
+  		  		},
   		  		{
-  		  			"content": "Translated <a href='http://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527/' target='_blank'><i>JavaScript: The Definitive Guide</i></a>"
-  		  		  , "details": [
-  		  		  		{
-                      "field": "Introduction: "
-  		  		  			, "content": "Do the translating work on this book with famous engineers such as YuBo, XiaoMa, SanQi, YiZhou and BaChi. And I learned how to make better cooperation with each other during the process"
-  		  		  		}
-  		  		  	  , 
-  		  		  		{
-                      "field": "Achievements: "
-  		  		  			, "content": "Improved my translating skill"
-  		  		  		}
-  		  		    ]
+              "field": "Responsibility: ",
+  		  		  "content": "Developing the Front-End Building Subsystem(like a heavy-weight website building system) with JavaScript, CSS and HTML"
+  		  		},
+            {
+              "field": "Achievements: ",
+              "content": "1. First try on the rich client application development<br />2. Learned Front-End techs and Dojo framework<br />3. Attracted by JavaScript"
+            }
+  		    ]
+    		}
+	  	]
+		},
+  	{
+			"date": "2010-2011",
+  		"multipleEvents": true,
+  		"summary": "Front-End Engineer - Taobao",
+  		"events": [
+	  		{
+	  			"content": "Project: <a href='http://yunkefu.taobao.com/' target='_blank'><i>Cloud Service System</i></a>",
+  		    "details": [
+  		  		{
+              "field": "Introduction: ",
+  		  		  "content": "A typical IM(Instant Message) and Single Page Application: provide real-time online customer support"
+  		  		},
+            {
+              "field": "Responsibility: ",
+              "content": "Responsible for designing and implementing the front-end part of system: <br />1. Modularized the application<br />2. Implemented a Pub/Sub System to enable the communication between modules and make them loosely coupled<br />3. Implemented cross-domain messaging with HTML5 features"
+            },
+  		  		{
+              "field": "Achievements: ",
+  		  			"content": "1. Initially understanding with Front-End MVC<br />2. Got familiar with Long Live Connection and Polling techs"
   		  		}
-  		  		
-  		  	  ,	{
-  		  			"content": "Translated <a href='http://nodebeginner.org/'><i>The Node Beginner Book</i></a>"
-  		  		  , "details": [
-  		  		  		{
-                      "field": "Introduction: "
-  		  		  			, "content": "My first time to do all the preparing and translating works such as contacting the author to get the translating rights, setting up the team, translating the book and so on. Fortunately, our translated book was loved by lots of Node.js Learners"
-  		  		  		}
-  		  		  	  , 
-  		  		  		{
-                      "field": "Achievements: "
-  		  		  			, "content": "Improved my communication skill with foreigners and organization skill with online teamwork"
-  		  		  		}
-  		  		    ]
+  		    ]
+	  		},
+  		  {
+	  			"content": "Project: <a href='http://service.taobao.com/support/minerva/betaRobotMain.htm/' target='_blank'><i>Intelligent Service Robot System</i></a>",
+  		    "details": [
+  		  		{
+              "field": "Introduction: ",
+  		  			"content": "A typical IM(Instant Message) and Single Page Application corresponding to the <i>Cloud Service System</i>: Used by the customers of Taobao "
+  		  	  },
+            {
+              "field": "Responsibility: ",
+              "content": "Responsible for designing and implementing the front-end part of system: <br />1. Modularized the application<br />2. Implemented a Pub/Sub System to enable the communication between modules and make them loosely coupled<br />3. Implemented cross-domain messaging with HTML5 features"
+            },
+            {
+              "field": "Achievements: ",
+              "content": "1. Initially understanding with Front-End MVC<br />2. Got familiar with Long Live Connection and Polling techs"
+            }
+  		    ]
+	  		},
+  		  {
+	  			"content": "Translated the book: <a href='http://www.amazon.com/HTML5-Up-Running-Mark-Pilgrim/dp/0596806027/' target='_blank'><i>HTML5: up and running</i></a>",
+  		    "details": [
+  		  		{
+              "field": "Introduction: ",
+		  		  	"content": "Encouraged by XiaoMa(Leader of F2E Team in Taobao), I translated this book into Chinese, which is my first time to do such formal translating work"
+		  		  },
+		  		  {
+              "field": "Achievements: ",
+		  		  	"content": "1. Technical translating is a rigorous physical and mental work<br />2. Forced myself to dive into every tech details in book<br />3. Feel really excited to see my name on the book"
   		  		}
-  		  		
-  		  	  ,	{
-  		  			"content": "Organized the sixth <a href='http://d2forum.org/'><i>D2 Technology Forum </i></a>"
-  		  		  , "details": [
-  		  		  		{
-                      "field": "Introduction: "
-  		  		  			, "content": "As a project manager, I was in charge of organizing this thousands of scale technology forum which is also one of the most famous technology forum focusing on Front-End Technology"
-  		  		  		}
-  		  		  	  , 
-  		  		  		{   "field": "Achievements: "
-  		  		  			, "content": "1. First time to be the project manager<br />2. Improved my communication skill with different roles<br />3. Realized the importance of Plan B<br />4. Titled <i>Excellent Project Manager</i> by the committee"
-  		  		  		}
-  		  		    ]
+  		    ]
+	  		},
+  		  {
+	  			"content": "Found <a href='http://trans4fun.org/' target='_blank'><i>Trans4Fun</i></a>",
+	  		  "details": [
+  		  		{
+              "field": "Introduction: ",
+  		  			"content": "I found this organization for two reasons: one is there are many people like me who have interests in technical translating and the other is the lack of Chinese resources on Front-End Technology"
+  		  		},
+  		  		{
+              "field": "Achievements: ",
+  		  		  "content": "1. Published several popular works<br />2. Fixed numbers of team members<br />3. Focus on project based translating"
   		  		}
-  		  	]
-  		}
-  	]
+  		    ]
+	  		}
+	  	]
+		},
+  	{
+			"date": "2011-2012",
+  		"multipleEvents": true,
+  		"summary": "Front-End Engineer - Taobao",
+  		"events": [
+	  		{
+    			"content": "Translated <a href='http://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527/' target='_blank'><i>JavaScript: The Definitive Guide</i></a>",
+  		  	"details": [
+  		  		{
+              "field": "Introduction: ",
+  		  		  "content": "Do the translating work on this book with famous engineers such as YuBo, XiaoMa, SanQi, YiZhou and BaChi. And I learned how to make better cooperation with each other during the process"
+  		  		},
+  		  		{
+              "field": "Achievements: ",
+  		  		  "content": "Improved my translating skill"
+  		  		}
+  		    ]
+	  		},
+  		  {
+	  			"content": "Translated <a href='http://nodebeginner.org/'><i>The Node Beginner Book</i></a>",
+  		    "details": [
+  		  		{
+              "field": "Introduction: ",
+  		  		  "content": "My first time to do all the preparing and translating works such as contacting the author to get the translating rights, setting up the team, translating the book and so on. Fortunately, our translated book was loved by lots of Node.js Learners"
+  		  		},
+  		  		{
+              "field": "Achievements: ",
+  		  			"content": "Improved my communication skill with foreigners and organization skill with online teamwork"
+  		  		}
+  		    ]
+	  		},
+  		  {
+	  			"content": "Organized the sixth <a href='http://d2forum.org/'><i>D2 Technology Forum </i></a>",
+  		  	"details": [
+  		  		{
+              "field": "Introduction: ",
+  		  		  "content": "As a project manager, I was in charge of organizing this thousands of scale technology forum which is also one of the most famous technology forum focusing on Front-End Technology"
+  		  		},
+  		  		{   
+              "field": "Achievements: ",
+  		  			"content": "1. First time to be the project manager<br />2. Improved my communication skill with different roles<br />3. Realized the importance of Plan B<br />4. Titled <i>Excellent Project Manager</i> by the committee"
+  		  		}
+  		    ]
+	  		}
+	  	]
+		},
+    {
+      "date": "2012.2 - 2012.6",
+      "multipleEvents": true,
+      "summary": "Senior Front-End Engineer - Taobao",
+      "events": [
+        {
+          "content": "Developed the JSSDK of <a href='http://open.taobao.com' target='_blank'><i>Taobao Open Platform</i></a>",
+          "details": [
+            {
+              "field": "Introduction: ",
+              "content": "JSSDK provides not only an easy way for third-party developers to invoke taobao open API via pure JavaScript but also some common components like LOGIN and SHOPPING CART"
+            },
+            {
+              "field": "Responsibility: ",
+              "content": "Develop the core JSSDK and LOGIN component"
+            },
+            {
+              "field": "Achievements: ",
+              "content": "1. Got familiar with different type of Cookie(HTTP Only cookie, Session Cookie, etc.)<br />2. Learned how to self-update third-party components<br />3. Dived into Cross-Domain Messaging Mechanism"
+            }
+          ]
+        },
+        {
+          "content": "Emcee of <a href='http://adc.taobao.com/#7th#d2' target='_blank'><i>The 7th D2 forum(ADC)</i></a>",
+          "details": [
+            {
+              "field": "Introduction: ",
+              "content": "My first time to be an emcee of such a  thousands of scale technology forum, as a result, I impressed all the attendant"
+            },
+            {
+              "field": "Achievements: ",
+              "content": "1. My emcee skill on tech conference was improved<br />2. Good at how to express as an emcee<br />"
+            } 
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2012.6 - 2013",
+      "multipleEvents": true,
+      "summary": "Software Engineer - SuccessFactors(An SAP Company)",
+      "events": [
+        {
+          "content": "Developed New Homepage",
+          "details": [
+            {
+              "field": "Introduction: ",
+              "content": "New Homepage  is a heavy-weight mashup-style system. Such works like rendering widget and communicating among widgets are all handled in the front-end"
+            },
+            {
+              "field": "Responsibility: ",
+              "content": "Develop all the front part of the features of new homepage for b1302 and cooperate with back-end engineer in America"
+            },
+            {
+              "field": "Achievements: ",
+              "content": "1. Built up my strong skills on researching on new project<br />2. Improved my skill on cross-contry team work<br />"
+            } 
+          ]
+        },
+        {
+          "content": "Developed <a href='http://goddyzhao.me/nproxy' target='_blank'><i>NProxy</i></a>(Fiddler-like Debug Tool)",
+          "details": [
+            {
+              "field": "Introduction: ",
+              "content": "NProxy is a Fiddler-like but cross-platform tool for deveper to debug with compressed and merged JavaScript/CSS files, which, mostly focus on file replacing. It is now widely used in SuccessFactors, TMall and Tecent, etc."
+            },
+            {
+              "field": "Responsibility: ",
+              "content": "Responsible for all the design and develop work of NProxy"
+            },
+            {
+              "field": "Achievements: ",
+              "content": "Dived into Node.js<br />2. Got more familar with HTTP and HTTPS<br />"
+            } 
+          ]
+        },
+        {
+          "content": "Organizer and Emcee of <a href='www.hujs.org' target='_blank'><i>Hu.js(the first international JavaScript event) in China</i></a>",
+          "details": [
+            {
+              "field": "Introduction: ",
+              "content": "As one of the organizers in China, I worked with the two founders Troy and Glenn to host this amazing JavaScript event in Shanghai, China. This is a really awesome experience for me to make a conference with foreign friends from scratch"
+            },
+            {
+              "field": "Achievements:",
+              "content": "1. Oral english skill was improved<br />2. Learned much from Troy and Glenn<br />3. Good to be an emcee in an international conference"
+            }
+          ]
+        }
+      ]
+    }
+	]
 }

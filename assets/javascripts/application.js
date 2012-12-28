@@ -9,6 +9,8 @@
 		    }
 		  , currentLanguage = "zh"
 		  , $body = $("body");
+
+		var timestamp = '20121229';
 		 
 		function detectLanguage(){
 			var search = win.location.search;
@@ -29,12 +31,20 @@
 		};
 		
 		function switchLanguage(language){
-			$.getJSON(templateUrl.replace("#{language}", language), function(data){
+			var url = templateUrl.replace("#{language}", language) + 
+					'?t=' + timestamp;
+
+			$.getJSON(url, function(data){
 				if(!data){ return; }
 				render(data);
 				activeLanguage(language);
+				decorateBody(language);
 				currentLanguage = language;
 			});
+		};
+
+		function decorateBody(language){
+			$body[0].className = language;
 		};
 		
 		function render(data){
