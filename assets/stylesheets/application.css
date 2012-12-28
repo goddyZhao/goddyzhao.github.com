@@ -213,7 +213,7 @@ body #page {
   color: #5ab632;
 }
 #bd {
-  background: transparent url("../images/tree.png") no-repeat 0 0;
+  background: transparent url("../images/tree.png?t=20121229") no-repeat 0 0;
   margin-top: 180px;
   width: 990px;
   height: 2747px;
@@ -543,7 +543,7 @@ body #page {
 }
 
 #ft {
-  background: transparent url("../images/tree.png") repeat-x -899px -2718px;
+  background: transparent url("../images/tree.png?t=20121229") repeat-x -899px -2718px;
   height: 29px;
   width: 100%;
   margin-top: -29px;
