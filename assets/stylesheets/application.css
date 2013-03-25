@@ -216,7 +216,7 @@ body #page {
   background: transparent url("../images/tree.png") no-repeat 0 0;
   margin-top: 180px;
   width: 990px;
-  height: 2747px;
+  height: 1421px;
   z-index: 100;
   position: relative;
 }
@@ -236,25 +236,15 @@ body #page {
 #bd .brief-info h1 .last-name {
   color: #5ab632;
 }
-#bd .brief-info .net-info p {
-  padding: 5px 0 0 40px;
+#bd .brief-info .net-info {
+  padding-left: 60px;
 }
-#bd .brief-info .net-info .blog,
-#bd .brief-info .net-info .email {
-  background: transparent url("../images/markers.png") no-repeat 0 0;
+#bd .brief-info .net-info ul li {
+  display: inline-block;
+  margin: 0 5px;
 }
-#bd .brief-info .net-info .blog {
-  background-position: 0 0;
-  height: 32px;
-  font-size: 24px;
-}
-#bd .brief-info .net-info .blog-remark {
-  color: #999;
-}
-#bd .brief-info .net-info .email {
-  background-position: 0 -34px;
-  height: 32px;
-  font-size: 24px;
+#bd .brief-info .net-info .net-img {
+  width: 32px;
 }
 #bd .avatar {
   background-image: url("../images/avatar.png");
@@ -457,96 +447,19 @@ body #page {
   top: 109px;
   left: -11px;
 }
-
 #bd .dots-wrap .dots:nth-child(5) {
   top: 900px;
   left: 381px;
 }
-
-#bd .dots-wrap .dots:nth-child(5)  .leaves{
-  background-position: 0 -240px;
-  display: inline-block;
-  width: 60px;
-  height: 112px;
-  position: absolute;
-  left: -30px;
-  top: 45px;
-}
-
-#bd .dots-wrap .dots:nth-child(5) .milestones{
-  left: -470px;
-  top: 44px;
-  text-align: right;
-}
-
-#bd .dots-wrap .dots:nth-child(5) .milestones ul li {
-  margin-bottom: 12px;
-}
-
-#bd .dots-wrap .dots:nth-child(5) .milestones ul li:nth-child(1):hover .small-dot{
-  display: inline-block;
-  top: 45px;
-  right: -39px;
-}
-
-#bd .dots-wrap .dots:nth-child(5) .milestones ul li:nth-child(2):hover .small-dot{
-  display: inline-block;
-  right: -39px;
-  top: 80px;
-}
-
 #bd .dots-wrap .dots:nth-child(6) {
   top: 1060px;
   left: 448px;
 }
-
-#bd .dots-wrap .dots:nth-child(6) .leaves{
-  background-position: 0 -352px;
-  display: inline-block;
-  width: 60px;
-  height: 145px;
-  position: absolute;
-  left: -25px;
-  top: 45px;
-}
-
-#bd .dots-wrap .dots:nth-child(6) .milestones{
-  left: -470px;
-  top: 42px;
-  text-align: right;
-}
-
-.en #bd .dots-wrap .dots:nth-child(6) .milestones{
-  top: 20px;
-}
-
-#bd .dots-wrap .dots:nth-child(6) .milestones ul li {
-  margin-bottom: 12px;
-}
-
-#bd .dots-wrap .dots:nth-child(6) .milestones ul li:nth-child(1):hover .small-dot{
-  display: inline-block;
-  top: 45px;
-  right: -44px;
-}
-
-#bd .dots-wrap .dots:nth-child(6) .milestones ul li:nth-child(2):hover .small-dot{
-  display: inline-block;
-  right: -44px;
-  top: 80px;
-}
-
-#bd .dots-wrap .dots:nth-child(6) .milestones ul li:nth-child(3):hover .small-dot{
-  display: inline-block;
-  right: -44px;
-  top: 115px;
-}
-
 #ft {
-  background: transparent url("../images/tree.png") repeat-x -899px -2718px;
-  height: 29px;
+  background: transparent url("../images/tree.png") repeat-x -899px -1393px;
+  height: 28px;
   width: 100%;
-  margin-top: -29px;
+  margin-top: -28px;
   position: relative;
   z-index: 1001;
 }
