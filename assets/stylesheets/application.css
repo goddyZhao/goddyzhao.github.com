@@ -236,25 +236,15 @@ body #page {
 #bd .brief-info h1 .last-name {
   color: #5ab632;
 }
-#bd .brief-info .net-info p {
-  padding: 5px 0 0 40px;
+#bd .brief-info .net-info {
+  padding-left: 60px;
 }
-#bd .brief-info .net-info .blog,
-#bd .brief-info .net-info .email {
-  background: transparent url("../images/markers.png") no-repeat 0 0;
+#bd .brief-info .net-info ul li {
+  display: inline-block;
+  margin: 0 5px;
 }
-#bd .brief-info .net-info .blog {
-  background-position: 0 0;
-  height: 32px;
-  font-size: 24px;
-}
-#bd .brief-info .net-info .blog-remark {
-  color: #999;
-}
-#bd .brief-info .net-info .email {
-  background-position: 0 -34px;
-  height: 32px;
-  font-size: 24px;
+#bd .brief-info .net-info .net-img {
+  width: 32px;
 }
 #bd .avatar {
   background-image: url("../images/avatar.png");
