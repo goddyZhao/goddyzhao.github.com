@@ -210,7 +210,7 @@
     {
       "date": "2012.6 - 2013",
       "multipleEvents": true,
-      "summary": "Software Engineer - SuccessFactors(An SAP Company)",
+      "summary": "Software Engineer - SAP",
       "events": [
         {
           "content": "Developed New Homepage",
@@ -254,9 +254,72 @@
               "content": "As one of the organizers in China, I worked with the two founders Troy and Glenn to host this amazing JavaScript event in Shanghai, China. This is a really awesome experience for me to make a conference with foreign friends from scratch"
             },
             {
-              "field": "Achievements:",
+              "field": "Achievements: ",
               "content": "1. Oral english skill was improved<br />2. Learned much from Troy and Glenn<br />3. Good to be an emcee in an international conference"
             }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2013 - 2014",
+      "multipleEvents": true,
+      "summary": "Software Engineer - SAP",
+      "events": [
+        {
+          "content": "MDF(Meta Data Framework) Lead UI Engineer",
+          "details": [
+            {
+              "field": "Introduction: ",
+              "content": "MDF is one of the most important project, which is being developed by three teams from U.S, India and China. The goal of MDF is to provide an easy-to-use framework for module teams to build an application by defining objects, schema and logic."
+            },
+            {
+              "field": "Responsibility: ",
+              "content": "Responsible for design, development of all the MDF UI"
+            },
+            {
+              "field": "Achievements: ",
+              "content": "1. Skill of System design was improved<br />2. Learnt how to cooperate with developers with different culture from different countries, especially India<br />"
+            } 
+          ]
+        },
+        {
+          "content": "Organizer and Emcee of <a href='http://jingjs.org/' target='_blank'><i>Jing.js</i></a>",
+          "details": [
+            {
+              "field": "Introduction: ",
+              "content": "Jing.js is an international JavaScript technology conference, which was hosted in Beijing, China. We had more than 20 speakers all over the world, 5 big sponsors(Microsoft, Github, Netease, Baidu) and more than 500 attendees in Jing.js."
+            },
+            {
+              "field": "Achievements: ",
+              "content": "1. Proud of making it come true in Beijing with remotely working in Shanghai <br />2. Getting more familiar with business about hosting a technology conference<br />"
+            } 
+          ]
+        },
+        {
+          "content": "Producer of <a href='http://www.qconshanghai.com/' target='_blank'><i>QCon Shanghai</i></a>",
+          "details": [
+            {
+              "field": "Introduction: ",
+              "content": "QCon is one of the biggest technology conference in China and I was so honored to be the producer of the JavaScript Session of this conference. And finally, this session was popular and titled as the best session"
+            },
+            {
+              "field": "Responsibility: ",
+              "content": "Responsible for inviting the speakers and Emcee."
+            },
+            {
+              "field": "Achievements: ",
+              "content": "1. Learnt how to deal with urgent matters<br />2. Emcee skill is improved<br />"
+            } 
+          ]
+        },
+        {
+          "content": "Translated <a href='http://www.amazon.com/Programming-CoffeeScript-Developers-Library-Bates-ebook/dp/B008EXGEBE/' target='_blank'><i>Programming in CoffeeScript</i></a> and <a href='http://www.amazon.com/Smashing-Node-js-JavaScript-Everywhere-Magazine-ebook/dp/B008Z5OEUY/' target='_blank'><i>Smashing Node.js</i></a>",
+          "details": [
+            {
+              "field": "Achievements: ",
+              "content": "1. Translating skill is improved<br />2. Dive into Node.js while translating the book<br />"
+            } 
           ]
         }
       ]

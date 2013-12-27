@@ -211,7 +211,7 @@
     {
       "date": "2012.6 - 2013",
       "multipleEvents": true,
-      "summary": "软件工程师 - SuccessFactors(An SAP Company)",
+      "summary": "软件工程师 - SAP",
       "events": [
         {
           "content": "负责New Homepage的开发",
@@ -260,7 +260,74 @@
             },
             {
               "field": "收获：",
-              "content": "1. 对Node.js有了更加深刻的认识<br />2. 对HTTP以及HTTPS代理有了更加深刻的了解<br />"
+              "content": "1. 英语口语提升很大<br />2. 组织能力以及沟通能力都得到了很好的提升<br />"
+            } 
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2013 - 2014",
+      "multipleEvents": true,
+      "summary": "软件工程师 - SAP",
+      "events": [
+        {
+          "content": "MDF(Meta Data Framework)主力UI Engineer",
+          "details": [
+            {
+              "field": "简介：",
+              "content": "MDF是公司非常重要的也是非常庞大的项目，全球有美国、印度、中国三个团队共同研发。项目目标是为应用层的团队提供快捷、高效、灵活的模型、应用构建框架。应用层团队可以通过对对象的定义、Schema的定义来自动生成一套可用的符合业务逻辑的应用"
+            },
+            {
+              "field": "职责：",
+              "content": "主力UI工程师，负责所有MDF UI层的设计、构建和开发"
+            },
+            {
+              "field": "收获：",
+              "content": "1. 系统设计能力得到很大提升<br />2. 学会了如何更好的与不同文化不同地域的工程师合作，特别是印度工程师<br />"
+            } 
+          ]
+        },
+        {
+          "content": "组织并主持<a href='http://jingjs.org/' target='_blank'>国际性的JavaScript大会——京JS</a>",
+          "details": [
+            {
+              "field": "简介：",
+              "content": "继沪JS之后，我与Troy还有朴灵一同组织了京JS——一个为期两天在北京举办的JavaScript技术大会，会议一共邀请到了近20几位来自国内外的技术大牛担任演讲嘉宾；得到了包括微软、Github、Joyent、网易、百度等大公司的赞助；迎来了近500多位参会者。"
+            },
+            {
+              "field": "收获：",
+              "content": "1. 处事能力提升很大，在上海通过远程沟通、操作，完成了大会在北京的组织事宜，很自豪！<br />2. 对技术大会的流程、细节都把控到位<br />"
+            } 
+          ]
+        },
+        {
+          "content": "担任<a href='http://www.qconshanghai.com/' target='_blank'>QCon上海</a> JavaScript专题出品人",
+          "details": [
+            {
+              "field": "简介：",
+              "content": "受InfoQ中国之邀，担任JavaScript专题出品人，负责邀请专题演讲嘉宾、把控流程、以及主持。会后专题获得了最佳专题"
+            },
+            {
+              "field": "职责：",
+              "content": "负责邀请演讲嘉宾、内容和流程的把控、以及主持"
+            },
+            {
+              "field": "收获：",
+              "content": "1. 紧急情况下的应变能力得到很大提升<br />2. 主持水平得到提升<br />"
+            } 
+          ]
+        },
+        {
+          "content": "翻译技术书籍<a href='http://book.douban.com/subject/20509115/' target='_blank'>《CoffeeScript程序设计》</a>和<a href='http://book.douban.com/subject/25767596/' target='_blank'>《了不起的Node.js》</a>",
+          "details": [
+            {
+              "field": "简介：",
+              "content": "独自完成了两本技术书籍的翻译工作，为Node.js社区带来了帮助。"
+            },
+            {
+              "field": "收获：",
+              "content": "1. 翻译水平得到了提升<br />2. 翻译过程中对Node.js也认识更深入<br />"
             } 
           ]
         }

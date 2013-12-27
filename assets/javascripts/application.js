@@ -10,7 +10,7 @@
 		  , currentLanguage = "zh"
 		  , $body = $("body");
 
-		var timestamp = '20130325';
+		var timestamp = '201312227';
 		 
 		function detectLanguage(){
 			var search = win.location.search;
