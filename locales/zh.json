@@ -248,7 +248,7 @@
           ]
         },
         {
-          "content": "组织并主持<a href='www.hujs.org' target='_blank'>国内首个国际性的JavaScript技术大会——沪JS</a>",
+          "content": "组织并主持<a href='http://2012.jsconf.cn' target='_blank'>2012 JSConf China技术大会（沪JS）</a>",
           "details": [
             {
               "field": "简介：",
@@ -289,7 +289,7 @@
           ]
         },
         {
-          "content": "组织并主持<a href='http://jingjs.org/' target='_blank'>国际性的JavaScript大会——京JS</a>",
+          "content": "组织并主持<a href='http://2013.jsconf.cn/' target='_blank'>2013 JSConf China技术大会（京JS）</a>",
           "details": [
             {
               "field": "简介：",
@@ -328,6 +328,73 @@
             {
               "field": "收获：",
               "content": "1. 翻译水平得到了提升<br />2. 翻译过程中对Node.js也认识更深入<br />"
+            } 
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2014 - 2015",
+      "multipleEvents": true,
+      "summary": "高级软件工程师 - SAP",
+      "events": [
+        {
+          "content": "MDF Config UI项目主力UI Engineer",
+          "details": [
+            {
+              "field": "简介：",
+              "content": "MDF Config UI项目是一个给公司其他项目团队以及客户快速构建基于MDF的Web应用的项目，功能非常强大，类似于一个website builder"
+            },
+            {
+              "field": "职责：",
+              "content": "主力UI工程师，负责MDF Config UI的开发以及部分架构设计"
+            },
+            {
+              "field": "收获：",
+              "content": "1. 系统设计能力得到很大提升<br />2. 学会了如何更好的与不同文化不同地域的工程师合作，特别是印度工程师<br />"
+            } 
+          ]
+        },
+        {
+          "content": "组建公司上海第一支UI Common团队",
+          "details": [
+            {
+              "field": "简介：",
+              "content": "帮助公司在上海组件第一支UI Common团队（以前团队只有在美国、印度）"
+            },
+            {
+              "field": "职责：",
+              "content": "负责技术层面的把关以及人员的评估"
+            },
+            {
+              "field": "收获：",
+              "content": "1. 过程中遇到了很多团队组件的问题也学到了很多"
+            } 
+          ]
+        },
+        {
+          "content": "提出并设计开发New Config UI项目",
+          "details": [
+            {
+              "field": "简介：",
+              "content": "为了应对更多国际化业务项目的需求，针对MDF Config UI项目的缺点以及不足，提出了New Config UI的产品概念以及技术架构思路，并协同UI Common团队一同进行设计开发"
+            },
+            {
+              "field": "收获：",
+              "content": "1. 从无到有的架构设计得到提升<br />2. 在大公司推动技术产品能力得到锻炼和提升<br />"
+            } 
+          ]
+        },
+        {
+          "content": "组织并主持<a href='http://2014.jsconf.cn/' target='_blank'>2014 JSConf China技术大会（杭JS）</a>",
+          "details": [
+            {
+              "field": "简介：",
+              "content": "继沪JS、京JS之后，我继续协同苏千、朴灵、Troy组织了杭JS——一个为期两天在杭州举办的JavaScript技术大会，会议一共邀请到了近20几位来自国内外的技术大牛担任演讲嘉宾；得到了包括百度、Teambition、EF Lab、七牛、又拍云等公司的赞助；迎来了近600多位参会者。"
+            },
+            {
+              "field": "收获：",
+              "content": "1. 在组织过程中对市场合作等洽谈沟通能力得到提升<br />2. 过程中针对组委会内部的一些争论和矛盾都很好的进行了解决<br />"
             } 
           ]
         }

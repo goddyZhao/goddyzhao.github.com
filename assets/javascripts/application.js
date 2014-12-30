@@ -94,16 +94,7 @@
 			if($.browser.msie){
 				var template = [
 					'<div class="degrade-info">'
-				  ,   '<h1 class="title">很抱歉，我的简历在线浏览不支持您当前浏览器，您可以：</h1>'
-				  ,   '<ul>'
-				  ,     '<li>1. 下载 <a href="resumes/GoddyZhao-Resume-CN.pdf">简历PDF版</a></li>'
-				  ,     '<li>2. 访问 <a href="http://blog.goddyzhao.me">我的博客</a></li>'
-				  ,   '</ul>'
-				  ,   '<h1 class="title">Sorry, online viewing of my resume doesn\' support your browser, you can: </h1>'
-				  ,   '<ul>'
-				  ,     '<li>1. Download <a href="resumes/GoddyZhao-Resume-EN.pdf">the PDF version of my resume</a></li>'
-				  ,     '<li>2. Visit <a href="http://goddyzhaoen.tumblr.com">My Blog</a></li>'
-				  ,   '</ul>'
+				  ,   '<h1 class="title">很抱歉，我的简历在线浏览不支持您当前浏览器，请使用Chrome、Safari或者Firefox进行浏览：</h1>'
 				  , '</div>'
 				].join("");
 				$body.html(template);

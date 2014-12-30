@@ -247,7 +247,7 @@
           ]
         },
         {
-          "content": "Organizer and Emcee of <a href='www.hujs.org' target='_blank'><i>Hu.js(the first international JavaScript event) in China</i></a>",
+          "content": "Organizer and Emcee of <a href='http://2012.jsconf.cn' target='_blank'><i>2012 JSConf China - Hu.js</i></a>",
           "details": [
             {
               "field": "Introduction: ",
@@ -284,7 +284,7 @@
           ]
         },
         {
-          "content": "Organizer and Emcee of <a href='http://jingjs.org/' target='_blank'><i>Jing.js</i></a>",
+          "content": "Organizer and Emcee of <a href='http://2013.jsconf.cn/' target='_blank'><i>2013 JSConf China - Jing.js</i></a>",
           "details": [
             {
               "field": "Introduction: ",
@@ -319,6 +319,73 @@
             {
               "field": "Achievements: ",
               "content": "1. Translating skill is improved<br />2. Dive into Node.js while translating the book<br />"
+            } 
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2014 - 2015",
+      "multipleEvents": true,
+      "summary": "Senior Software Engineer - SAP",
+      "events": [
+        {
+          "content": "MDF Config UI Lead UI Engineer",
+          "details": [
+            {
+              "field": "Introduction:",
+              "content": "MDF Config UI helps our customers and developers to rapidly develop web application based on MDF objects, which can be considered as a website builder tool"
+            },
+            {
+              "field": "Responsibility:",
+              "content": "Resposible for architect design and development"
+            },
+            {
+              "field": "Achievements:",
+              "content": "1. Skill of System design was improved<br />2. Learnt how to cooperate with developers with different culture from different countries, especially India<br />"
+            } 
+          ]
+        },
+        {
+          "content": "Build the first UI Common team in Shanghai",
+          "details": [
+            {
+              "field": "Introduction:",
+              "content": "Build the first UI Common team in shanghai (only in U.S and India)"
+            },
+            {
+              "field": "Responsibility:",
+              "content": "Resposible for evaluating the tech members"
+            },
+            {
+              "field": "Achievements:",
+              "content": "1. Learnt more about how to build a team"
+            } 
+          ]
+        },
+        {
+          "content": "Found and design/develop New Config UI",
+          "details": [
+            {
+              "field": "Introduction：",
+              "content": "To meet more requirements from all sorts of customers all over the world, I designed a new config ui project based on the drawbacks of current config ui and developed it with new UI Common team"
+            },
+            {
+              "field": "Achievements",
+              "content": "1. Arch skill from scratch gets improved<br />2. Learnt how to introduce a new project cross-team<br />"
+            } 
+          ]
+        },
+        {
+          "content": "Organizer and Emcee of <a href='http://2014.jsconf.cn/' target='_blank'><i>2014 JSConf China - Hang.js</i></a>",
+          "details": [
+            {
+              "field": "Introduction: ",
+              "content": "Hang.js is an international JavaScript technology conference, which was hosted in Hangzhou, China. We had more than 20 speakers all over the world, 8 sponsors and more than 600 attendees in Hang.js."
+            },
+            {
+              "field": "Achievements: ",
+              "content": "1. Improved the skill of marketing <br />"
             } 
           ]
         }
