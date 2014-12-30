@@ -672,7 +672,7 @@ body #page {
   z-index: 1001;
 }
 #ft .copyright {
-  width: 320px;
+  width: 400px;
   margin: 0 auto;
   line-height: 28px;
   color: #ddddda;
@@ -702,4 +702,8 @@ body #page {
   text-decoration: none;
   color: #369;
   line-height: 25px;
+}
+
+#cnzz_stat_icon_1253998436 {
+  display: none;
 }
