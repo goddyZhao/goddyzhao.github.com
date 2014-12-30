@@ -173,7 +173,7 @@ textarea {
   color: #369;
 }
 .popover ul li {
-  background: transparent url("../images/leaf.png") no-repeat 0 0;
+  background: transparent url("http://7tebh5.com1.z0.glb.clouddn.com/homepage/leaf.png") no-repeat 0 0;
   padding: 0 5px 0 20px;
   margin-bottom: 5px;
   max-width: 430px;
@@ -189,7 +189,7 @@ textarea {
 }
 html,
 body {
-  background: transparent url("../images/bg.png") repeat 0 0;
+  background: transparent url("http://7tebh5.com1.z0.glb.clouddn.com/homepage/bg.png") repeat 0 0;
   font-family: 'Microsoft YaHei' false;
 }
 body #page {
@@ -213,7 +213,7 @@ body #page {
   color: #5ab632;
 }
 #bd {
-  background: transparent url("../images/tree.png?t=20121229") no-repeat 0 0;
+  background: transparent url("http://7tebh5.com1.z0.glb.clouddn.com/homepage/tree.png?t=20121229") no-repeat 0 0;
   margin-top: 180px;
   width: 990px;
   height: 2747px;
@@ -247,7 +247,7 @@ body #page {
   width: 32px;
 }
 #bd .avatar {
-  background-image: url("../images/avatar.png");
+  background-image: url("http://7tebh5.com1.z0.glb.clouddn.com/homepage/avatar.png");
   display: inline-block;
   width: 244px;
   height: 244px;
@@ -259,7 +259,7 @@ body #page {
 #bd .dots-wrap .dots:hover .dot,
 #bd .dots-wrap .dots .small-dot,
 #bd .dots-wrap .dots .leaves {
-  background: transparent url("../images/tree_sprite.png") no-repeat 0 0;
+  background: transparent url("http://7tebh5.com1.z0.glb.clouddn.com/homepage/tree_sprite.png") no-repeat 0 0;
 }
 #bd .dots-wrap .dots {
   position: absolute;
@@ -280,7 +280,7 @@ body #page {
   top: -15px;
 }
 #bd .dots-wrap .milestones {
-  width: 430px;
+  width: 450px;
   font-size: 20px;
   line-height: 20px;
   position: absolute;
@@ -464,7 +464,7 @@ body #page {
 }
 
 #bd .dots-wrap .dots:nth-child(5) .milestones{
-  left: -470px;
+  left: -490px;
   top: 44px;
   text-align: right;
 }
@@ -506,7 +506,7 @@ body #page {
 }
 
 #bd .dots-wrap .dots:nth-child(6) .milestones{
-  left: -470px;
+  left: -490px;
   top: 42px;
   text-align: right;
 }
@@ -597,9 +597,74 @@ body #page {
   top: 140px;
 }
 
+#bd .dots-wrap .dots:nth-child(8) {
+  top: 1470px;
+  left: 390px;
+}
+
+#bd .dots-wrap .dots:nth-child(8) .leaves{
+  background-position: 0 -912px;
+  width: 144px;
+  height: 134px;
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  left: 35px;
+}
+
+#bd .dots-wrap .dots:nth-child(8) .milestones {
+  left: 140px;
+  top: -2px;
+  text-align: left;
+}
+
+#bd .dots-wrap .dots:nth-child(8) .milestones ul li {
+  margin-bottom: 10px;
+}
+
+#bd .dots-wrap .dots:nth-child(8) .milestones ul li:nth-child(1) {
+  margin-left: -8px;
+}
+
+#bd .dots-wrap .dots:nth-child(8) .milestones ul li:nth-child(2) {
+  margin-left: 10px;
+}
+
+#bd .dots-wrap .dots:nth-child(8) .milestones ul li:nth-child(3) {
+  margin-left: 28px;
+}
+
+#bd .dots-wrap .dots:nth-child(8) .milestones ul li:nth-child(4) {
+  margin-left: 45px;
+}
+
+#bd .dots-wrap .dots:nth-child(8) .milestones ul li:nth-child(1):hover .small-dot{
+  display: inline-block;
+  top: 52px;
+  left: -48px;
+}
+
+#bd .dots-wrap .dots:nth-child(8) .milestones ul li:nth-child(2):hover .small-dot{
+  display: inline-block;
+  left: -30px;
+  top: 82px;
+}
+
+#bd .dots-wrap .dots:nth-child(8) .milestones ul li:nth-child(3):hover .small-dot{
+  display: inline-block;
+  left: -12px;
+  top: 110px;
+}
+
+#bd .dots-wrap .dots:nth-child(8) .milestones ul li:nth-child(4):hover .small-dot{
+  display: inline-block;
+  left: 6px;
+  top: 140px;
+}
+
 
 #ft {
-  background: transparent url("../images/tree.png?t=20121229") repeat-x -899px -2718px;
+  background: transparent url("http://7tebh5.com1.z0.glb.clouddn.com/homepage/tree.png?t=20121229") repeat-x -899px -2718px;
   height: 29px;
   width: 100%;
   margin-top: -29px;

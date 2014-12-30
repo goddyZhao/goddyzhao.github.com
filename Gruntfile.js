@@ -17,6 +17,7 @@ module.exports = function(grunt) {
       app: {
         files: {
           'assets/stylesheets/application.min.css': [
+            'assets/stylesheets/bootstrap.css',
             'assets/stylesheets/application.css'
           ]
         }
