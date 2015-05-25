@@ -157,7 +157,7 @@
   		    ]
 	  		},
   		  {
-	  			"content": "负责组织<a href='http://www.d2forum.org/category/d2-06/' target='_blank'>“第六届前端技术论坛”</a>",
+	  			"content": "负责组织<a href='http://www.d2forum.org/' target='_blank'>“第六届D2前端技术论坛”</a>",
   		  	"details": [
   		  		{
               "field": "简介：",
@@ -284,7 +284,7 @@
             },
             {
               "field": "收获：",
-              "content": "1. 系统设计能力得到很大提升<br />2. 学会了如何更好的与不同文化不同地域的工程师合作，特别是印度工程师<br />"
+              "content": "1. 系统设计能力得到很大提升<br />2. 学会了如何更好的与不同文化不同地域的工程师合作<br />"
             } 
           ]
         },

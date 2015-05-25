@@ -279,7 +279,7 @@
             },
             {
               "field": "Achievements: ",
-              "content": "1. Skill of System design was improved<br />2. Learnt how to cooperate with developers with different culture from different countries, especially India<br />"
+              "content": "1. Skill of System design was improved<br />2. Learnt how to cooperate with developers with different culture from different countries<br />"
             } 
           ]
         },
@@ -330,7 +330,7 @@
       "summary": "Senior Software Engineer - SAP",
       "events": [
         {
-          "content": "MDF Config UI Lead UI Engineer",
+          "content": "MDF Config UI Core UI Engineer",
           "details": [
             {
               "field": "Introduction:",
