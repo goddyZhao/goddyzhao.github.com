@@ -5,9 +5,10 @@
 	  "lastName": "Zhao"
 	},
   "information": {
+    "github": "https://github.com/goddyzhao",
     "weibo": "http://weibo.com/goddyzhao",
     "twitter": "http://twitter.com/goddyzhao",
-		"blog": "http://en.blog.goddyzhao.me",
+		"blog": "https://medium.com/@goddyzhao",
     "email": "i@goddyzhao.me"
   },
   "milestones": [
